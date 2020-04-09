@@ -6,6 +6,8 @@
 
 # A. 모든 프로모션(Promotion) 정보 보기
 
+# check
+
 GET /api/promotions
 결과
 {
@@ -171,7 +173,7 @@ Ex> GET /api/products?categoryId=5&start=5
 
 }
 
-3.       정적 컨텐츠 요청
+3.        정적 컨텐츠 요청
     A. 이미지 요청
     fileId 에 해당하는 이미지를 다음과 같이 요청한다.
     예)
