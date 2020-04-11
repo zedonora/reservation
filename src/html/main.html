@@ -37,11 +37,17 @@
 				>asdsa@gmail.com</span
 			>
 		</nav>
-		<div class="wrapper">
-			<img
-				id="slide"
-				src="http://lorempixel.com/output/cats-q-c-100-100-4.jpg"
-			/>
+		<div>
+			<div class="container_visual">
+				<!-- Promotion -->
+				<!-- 슬라이딩기능: 이미지 (type = 'th')를 순차적(javascript) 으로 노출 -->
+				<ul class="visual_img">
+					<c:forEach items="${promotionImages}" var="image">
+						<li><img src="${image.productImageUrl}" /></li>
+					</c:forEach>
+				</ul>
+			</div>
+			<span class="nxt_fix" style="display: none;"></span>
 		</div>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
