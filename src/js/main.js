@@ -20,6 +20,9 @@ $(document).ready(function () {
 	$(".visual_img").css("width", $(".visual_img").outerHeight() * imgCnt + "px");
 	// width 이미지 갯수만큼 늘리기 - display:inline 으로 한 이유.
 	slideShow($(".visual_img"), imgCnt);
+
+	// 각 메뉴의 데이터 값 가져오기
+	getFirstMenuData();
 });
 
 // ajax 공통함수
@@ -70,4 +73,8 @@ function slideShow(imgObj, imgCnt) {
 			curIndex = -1;
 		}
 	}, 2000);
+}
+
+function getFirstMenuData() {
+	return;
 }
