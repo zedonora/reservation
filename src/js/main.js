@@ -76,5 +76,7 @@ function slideShow(imgObj, imgCnt) {
 }
 
 function getFirstMenuData() {
+	console.log("a");
+	console.log("b");
 	return;
 }
